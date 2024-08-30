@@ -203,3 +203,16 @@
 //   default:
 //     console.log(`xato`);
 // }
+
+// NEW DATE
+const now = new Date();
+const today = now.getDate();
+const month = now.getMonth();
+const year = now.getFullYear();
+const hour = now.getHours();
+const minutes = now.getMinutes();
+const seconds = now.getSeconds();
+console.log(`Today:`, today);
+console.log(`Month:`, month);
+console.log(`Year:`, year);
+console.log(`Hour ${hour}:${minutes}:${seconds}`);
